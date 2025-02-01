@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Chocolates | Experiencias Únicas en Chocolate</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">NOVA</div>
+            <ul>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li class="cart-icon">🛒</li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1481391319762-47dff72954d9') center/cover;">
+        <div class="hero-content">
+            <h1>Descubre el Arte del Chocolate</h1>
+            <p>Experiencias únicas entregadas directamente a tu puerta</p>
+            <a href="#productos" class="cta-button">Explorar Colección</a>
+        </div>
+    </section>
+
+    <!-- Productos Destacados -->
+    <section id="productos" class="productos">
+        <h2>Nuestras Creaciones</h2>
+        <div class="productos-grid">
+            <div class="producto-card">
+                <img src="https://images.unsplash.com/photo-1549007994-cb92caebd54b" alt="Trufas Clásicas">
+                <h3>Trufas Clásicas</h3>
+                <p>Delicadas trufas de chocolate negro</p>
+                <span class="precio">$24.99</span>
+                <button class="comprar-btn">Añadir al Carrito</button>
+            </div>
+            <div class="producto-card">
+                <img src="https://images.unsplash.com/photo-1599599810769-bcde5a160d32" alt="Bombones Surtidos">
+                <h3>Bombones Surtidos</h3>
+                <p>Selección premium de nuestros mejores bombones</p>
+                <span class="precio">$34.99</span>
+                <button class="comprar-btn">Añadir al Carrito</button>
+            </div>
+            <div class="producto-card">
+                <img src="https://images.unsplash.com/photo-1587132137056-bfbf0166836e" alt="Barras Artesanales">
+                <h3>Barras Artesanales</h3>
+                <p>Chocolate puro con ingredientes selectos</p>
+                <span class="precio">$19.99</span>
+                <button class="comprar-btn">Añadir al Carrito</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Nosotros -->
+    <section id="nosotros" class="nosotros">
+        <div class="nosotros-container">
+            <h2>Nuestra Historia</h2>
+            <p class="historia-intro">Tres amigos unidos por la pasión del chocolate y el sueño de crear experiencias únicas</p>
+            
+            <div class="origen">
+                <img src="https://images.unsplash.com/photo-1550136513-548af4445338" alt="Cacao de Santander">
+                <div class="origen-texto">
+                    <h3>Raíces en Santander</h3>
+                    <p>Nuestro chocolate nace en las fértiles tierras de Santander, Colombia, donde el cacao fino de aroma crece en condiciones perfectas. Trabajamos directamente con agricultores locales para seleccionar los mejores granos y asegurar prácticas sostenibles.</p>
+                </div>
+            </div>
+
+            <div class="fundadores">
+                <h3>Los Fundadores</h3>
+                <div class="fundadores-grid">
+                    <div class="fundador-card">
+                        <img src="https://images.unsplash.com/photo-1556157382-97eda2d62296" alt="Fundador 1">
+                        <h4>Carlos Ramírez</h4>
+                        <p>Maestro Chocolatero</p>
+                        <p class="bio">"El chocolate es más que un dulce, es una experiencia que despierta todos los sentidos."</p>
+                    </div>
+                    <div class="fundador-card">
+                        <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956" alt="Fundador 2">
+                        <h4>Ana Martínez</h4>
+                        <p>Experta en Cacao</p>
+                        <p class="bio">"Cada grano de cacao cuenta una historia de tradición y dedicación."</p>
+                    </div>
+                    <div class="fundador-card">
+                        <img src="https://images.unsplash.com/photo-1537511446984-935f663eb1f4" alt="Fundador 3">
+                        <h4>Daniel Torres</h4>
+                        <p>Director Creativo</p>
+                        <p class="bio">"Innovamos respetando la tradición, creando sabores únicos y memorables."</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="compromiso">
+                <h3>Nuestro Compromiso</h3>
+                <div class="compromisos-grid">
+                    <div class="compromiso-card">
+                        <span class="icon">🌱</span>
+                        <h4>Ingredientes Naturales</h4>
+                        <p>Solo utilizamos ingredientes 100% naturales, sin conservantes ni aditivos artificiales.</p>
+                    </div>
+                    <div class="compromiso-card">
+                        <span class="icon">🤝</span>
+                        <h4>Comercio Justo</h4>
+                        <p>Apoyamos a los agricultores locales pagando precios justos por su cacao de alta calidad.</p>
+                    </div>
+                    <div class="compromiso-card">
+                        <span class="icon">♻️</span>
+                        <h4>Sostenibilidad</h4>
+                        <p>Utilizamos empaques eco-amigables y procesos responsables con el medio ambiente.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews -->
+    <section class="reviews">
+        <h2>Lo que dicen nuestros clientes</h2>
+        <div class="reviews-container">
+            <div class="review-card">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p>"Los mejores chocolates que he probado. El servicio de entrega es excelente."</p>
+                <span class="reviewer">- María G.</span>
+            </div>
+            <div class="review-card">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p>"Regalo perfecto para ocasiones especiales. Presentación impecable."</p>
+                <span class="reviewer">- Carlos R.</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulario de Registro -->
+    <section id="contacto" class="registro">
+        <div class="registro-container">
+            <h2>Únete a nuestra comunidad de amantes del chocolate</h2>
+            <p>Recibe ofertas exclusivas y noticias sobre nuevos productos</p>
+            <form id="registro-form">
+                <input type="text" placeholder="Nombre completo" required>
+                <input type="email" placeholder="Correo electrónico" required>
+                <input type="tel" placeholder="Teléfono" required>
+                <button type="submit" class="submit-btn">Registrarme</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">NOVA</div>
+            <div class="footer-links">
+                <a href="#">Términos y Condiciones</a>
+                <a href="#">Política de Privacidad</a>
+                <a href="#">Contacto</a>
+            </div>
+            <div class="social-links">
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">Pinterest</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('registro-form').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            const submitBtn = this.querySelector('.submit-btn');
+            submitBtn.classList.add('loading');
+            submitBtn.disabled = true;
+            
+            try {
+                const now = new Date();
+                const formData = {
+                    nombre: this.querySelector('input[type="text"]').value,
+                    email: this.querySelector('input[type="email"]').value,
+                    telefono: this.querySelector('input[type="tel"]').value,
+                    fecha: now.toLocaleDateString('es-CO', {
+                        year: 'numeric',
+                        month: '2-digit',
+                        day: '2-digit'
+                    }),
+                    hora: now.toLocaleTimeString('es-CO', {
+                        hour: '2-digit',
+                        minute: '2-digit',
+                        second: '2-digit',
+                        hour12: false
+                    }),
+                    timestamp: now.toISOString()
+                };
+
+                console.log('Enviando datos:', formData);
+
+                const response = await fetch('https://zuluagaseb.app.n8n.cloud/webhook-test/c644c19c-6e0a-4cae-93f3-7a32795245df', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Accept': '*/*'
+                    },
+                    body: JSON.stringify(formData)
+                });
+
+                console.log('Status:', response.status);
+                console.log('Status Text:', response.statusText);
+                console.log('Headers:', [...response.headers.entries()]);
+
+                const responseText = await response.text();
+                console.log('Respuesta completa:', responseText);
+
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}, message: ${responseText}`);
+                }
+
+                alert('¡Gracias por registrarte! Te contactaremos pronto.');
+                this.reset();
+                
+            } catch (error) {
+                console.error('Error detallado:', {
+                    message: error.message,
+                    error: error
+                });
+                alert(`Error: ${error.message}`);
+            } finally {
+                submitBtn.classList.remove('loading');
+                submitBtn.disabled = false;
+            }
+        });
+    </script>
+</body>
+</html> 
